@@ -1,0 +1,28 @@
+body {
+	background-color: rgba(22, 22, 76, 0.981);
+}
+
+.page {
+	padding: 50px;
+}
+.form {
+	max-width: 300px;
+	margin: 0 auto;
+	display: grid;
+	gap: 15px;
+}
+.form__input {
+	width: 100%;
+	padding: 10px;
+	height: 40px;
+}
+textarea.form__input {
+    height: 100px;
+}
+.form__button {
+    background-color: rgb(175, 117, 10);
+    height: 40px;
+    width: 100%;
+    color: #FFF;
+    text-transform: uppercase;
+}
